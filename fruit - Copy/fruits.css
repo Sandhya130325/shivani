@@ -1,0 +1,255 @@
+
+    .navbar{
+      width:100%;
+      padding:20px 8%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      position:fixed;
+      top:0;
+      z-index:1000;
+      background:rgba(0,0,0,0.6);
+      backdrop-filter:blur(8px);
+    }
+
+ nav h1{
+       color:#f3d997;
+      font-size:32px;
+      letter-spacing:2px;
+ }
+
+     nav ul{
+      display:flex;
+      list-style:none;
+      gap:30px;
+    }
+
+    nav ul li a{
+      text-decoration:none;
+      color:white;
+      font-size:18px;
+      transition:0.4s;
+    }
+    
+    .one{
+            width:100%;
+      height:100vh;
+      background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
+      url(image/istockphoto-529664572-612x612.jpg);
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      align-items:center;
+      padding:0 8%;
+
+    }
+     .hero-content{
+      max-width:700px;
+    }
+.hero-content h2{
+      font-size:90px;
+      line-height:90px;
+      margin-bottom:40px;
+      color:#fff;
+    }
+       .hero-content h2 span{
+      color:#e7d10b;
+    }
+
+    .hero-content p{
+      font-size:20px;
+      line-height:35px;
+      color:#e1e0e7;
+      margin-bottom:35px;
+    }
+
+.btn{
+background-color: rgb(6, 36, 21);
+font-size: larger; 
+color: rgb(221, 233, 233);
+border-radius: 50%;
+width: 200px;
+height: 60px;
+border: none;
+border-radius: 10px
+}
+
+   .btn:hover{
+      background:rgb(223, 180, 40);
+      transform:scale(1.05);
+    }
+
+    .fruits{
+      background:#181818;
+    }
+
+    .title{
+    text-align: center;
+    margin-bottom: 60px ;
+    padding: 100px;
+    }
+
+      .title h1{
+      font-size:55px;
+      color:#e2d02f;
+      margin-bottom:15px;
+    }
+       .title p{
+      color:#aaa8a8;
+      font-size:20px;
+    }
+.fruit-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      margin: 100px 0;
+      gap:35px;}
+
+
+      
+      .card{
+      background:#222;
+      border-radius:25px;
+      overflow:hidden;
+      transition:0.5s;
+      box-shadow:0 10px 20px rgba(0,0,0,0.5);
+    }
+ .card:hover{
+      transform:translateY(-12px);
+    }
+
+    .card img{
+      width:100%;
+      height:250px;
+      object-fit:cover;
+    }
+
+    .card-content{
+      padding:25px;
+    }
+
+    .card-content h2{
+      color:#eccb37;
+      margin-bottom:15px;
+      font-size:28px;
+    }
+
+    .card-content p{
+      color:#ddd;
+      line-height:28px;
+      margin-bottom:20px;
+    }
+
+    .price{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .price h3{
+      color:white;
+      font-size:25px;
+    }
+
+    .order-btn{
+      padding:10px 20px;
+      border:none;
+      border-radius:30px;
+      background:#ffb703;
+      font-weight:bold;
+      cursor:pointer;
+      transition:0.4s;
+    }
+
+    .order-btn:hover{
+      background:rgba(243, 74, 23, 0.932);
+    }
+
+    
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+ .about{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:50px;
+      flex-wrap:wrap;
+    }
+
+    .about-text{
+      flex:1;
+      min-width:300px;
+    }
+
+    .about-text h3{
+      font-size:30px;
+      margin-bottom:20px;
+      color:#89a9c9;
+    }
+
+    .about-text p{
+      margin-bottom:15px;
+      color:#b4b3b3;
+    }
+
+    .about-image{
+      flex:1;
+      min-width:300px;
+    }
+
+    .about-image img{
+      width:100%;
+      border-radius:15px;
+      box-shadow:0 5px 15px rgba(128, 8, 8, 0.1);
+    }
+
+   
+   .service-section{
+
+   }
+
+    .service-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+      gap:25px;
+      margin-top:40px;
+    
+    }
+
+    .service-box{
+      background:#fff;
+      padding:30px 25px;
+      border-radius:15px;
+      text-align:center;
+      transition:0.3s ease;
+      box-shadow:0 4px 10px rgba(233, 130, 14, 0.08);
+    }
+
+    .service-box:hover{
+      transform:translateY(-8px);
+      background:#dfffe5;
+    }
+
+    .service-icon{
+      font-size:50px;
+      margin-bottom:20px;
+    }
+
+    .service-box h3{
+      color:#2e7d32;
+      margin-bottom:15px;
+      font-size:24px;
+    }
+
+    .service-box p{
+      color:#555;
+      font-size:15px;
+    }
+    .services {
+    background: #ecfff0;
+    padding: 127px;
+}

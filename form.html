@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> 1.Basic student Information</h1>
+<label for="fname">Full name:</label><br>
+<input type="fname">
+
+<h3><ul><li>Gender</li></ul></h3>
+<input type="radio" id="male" name="fav_language" value="Male">
+<label for="male"> male</label><br>
+<input type="radio" id="female" name="fav_language" value="Female">
+<label for="female">female</label><br>
+<input type="radio" id="others" name="fav_language" value="others">
+<label for="others">others</label><br>
+
+<h3><ul><li>Date of Birth</li></ul></h3>
+<label for="dob"> Date of Birth:</label><br>
+<input type="date">
+
+<h3><ul><li>Age</li></ul></h3>
+<label for="age"> age:</label><br>
+<input type="number">
+
+<h2><ul><li>Place of Birth</li></ul></h2>
+<label for="Place of Birth">Place of Birth</label><br>
+<input type="text">
+
+<h3><ul><li>Nationality</li></ul></h3>
+<p>The select element is used to create a drop-down list.</p>
+<label for="nationality">choose the nationality:</label>
+<select name="nationality" id="nationality">
+<option value="India">India</option>
+<option value="Japan">Japan</option>
+<option value="America">America</option>
+<option value="USA">USA</option>
+<option value="south korea"> south korea</option>
+<option value="australia"> australia</option>
+<option value="ukraine">ukraine</option>
+<option value="others ">others</option>
+</select>
+<h3><ul><li>Religion</li></ul></h3>
+<p>The select element is used to create a drop-down list.</p>
+<select name="Religion" id="Religion">
+<option value="Hindu">Hindu</option>
+<option value="Islam">Islam</option>
+<option value="Buddhism">Buddhism</option>
+<option value="Christianity">Christianity</option>
+<option value="others">others</option>
+</select>
+
+<h3><ul><li>Aadhar No.</li></ul></h3>
+<label for="aadhar no."> aadhar no.:</label><br>
+<input type="number">
+
+<h3><ul><li>Blood group</li></ul></h3>
+<label for="blood group">Choose yor blood group</label><br>
+<select name="Blood group" id="Blood group">
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+<option value="B-">B-</option>
+<option value="O+">O+</option>
+<option value="O-">O-</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+<option value="others">others</option>
+</select>
+
+<h1>2.Contact Details</h1>
+<label for="residental address">residental address:</label><br>
+<input type="text">
+
+<h3><ul><li>Contact no.</li></ul></h3>
+<label for="phone no.">phone no.</label><br>
+<input type="number">
+
+<h3><ul><li>Email ID</li></ul></h3>
+<label for="Email ID">Email ID:</label><br>
+<input type="text number">
+
+<h1>3.Parent/Guardian Details</h1>
+<label for="Fathers name">Fathers Name: </label><br>
+<input type="text"><br>
+<label for="Occupation">Occupation:</label><br>
+<input type="text"><br>
+<label for="Contact no.">Contact no.:</label><br>
+<input type="number"><br>
+<label for="Mothers name">Mothers name:</label><br>
+<input type="text"><br>
+<label for="Occupation">Occupation:</label><br>
+<input type="text"><br>
+<label for="Contact no.">Contact no.:</label><br>
+<input type="number"><br>
+
+<h1>4. Academic Details</h1>
+<label for="Previous School Name">Previous School Name:</label><br>
+<input type="text"><br>
+<label for="Class last attended">Class last attended:</label><br>
+<input type="number"><br>
+<label for="Marks/Grades (report card)">Marks/Grades (report card):</label><br>
+<input type="number"><br>
+<label for="Reason for leaving previous school">Reason for leaving previous school:</label><br>
+<input type="text"><br>
+
+<h1>5. Documents Required</h1>
+<h5><ul><li>Birth Certificate</li></ul></h5>
+<label for="Passport size photo of student">Passport size photo of student</label>
+<form action="/upload-photo" method="POST" enctype="multipart/form-data">
+  <label for="passport-photo">Upload Passport Photo:</label>
+  <input type="file" id="passport-photo" name="photo" accept="image/jpeg, image/png" required>
+  <button type="submit">Upload</button>
+</form>
+
+<input type="Submit">
+<p>Would you like to join our quest?</p>
+<p>Would you like to join our quest?</p>
+<button class="joinBtn">Confirm</button>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+.body {
+margin:0;
+padding:0;
+box-sizing: initial;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 100%;
+}
+
+
+.navbar {
+display:flex;
+justify-content:space-around;
+  align-items: center;
+  background-color: #3f3d3d;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.logo {
+  color: rgb(69, 164, 236);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(170, 169, 170);
+font-size: large;
+  transition: 0.3s;
+  align-items: end;
+  text-align: right;
+  justify-content: end;
+}
+ 
+.sandy{
+  color: rgb(173, 179, 179);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h1{
+font-size:60px;
+font-weight: bolder;
+color: rgb(17, 17, 17);
+display: flex;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hello{
+color: #a19f9f;
+font-size: larger;
+
+}
+
+.btn{
+background-color: rgb(69, 181, 247);
+font-size: larger; 
+color: azure;
+border-radius: 50%;
+width: 200px;
+height: 60px;
+border: none;
+border-radius: 10px
+
+
+}
+
+.first-scc{
+  width: 59%;
+  margin: 0 auto;
+
+}
+
+.t-sec{
+display: flex;
+gap:10px;
+  width: 59%;
+  margin: 0 auto;
+}
+
+.child h2{
+font-size: 30px;
+
+}
+
+.child p {
+  color: gray;
+
+}
+.hii{
+display: flex;
+color: rgb(163, 161, 161);
+font-size: 150%;
+}
+.hero {
+  padding: 40px;
+color: rgb(44, 124, 230);
+line-height: 1.8;
+margin: 30px 0;
+h1{
+  color: rgb(243, 241, 238);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+background-color: black;
+
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:                                                                                                                                                                               rgb(182, 180, 176);
+}
+h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+display: flex;
+line-height: 0%;
+}
+p{
+color: #555252;
+}
+ 
+}
+.right-image{
+position: relative;
+bottom: 750px;
+left: 700px;
+}
